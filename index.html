@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Wellington Suero">
+        <meta name="description" content="Cookies Consent Modal">
+        <meta name="keywords" content="web developer, web, developer, front-end,
+            html, css, javascript, cookies, consent, modal">
+
+        <title>Cookies Consent Modal</title>
+
+        <!-- Stylesheets -->
+        <link rel="shortcut icon" href="./assets/img/favicon.png?=2" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <script src="./assets/script/app.js" type="module"></script>
+    </head>
+    <body>
+        <main>
+            <div class="container flex">
+                <h1 class="content">
+                    A <u>Cookie</u> is a small piece of text sent to your 
+                    broswer by a website you visit. It helps the site
+                    remember <u>information</u> about your visit, which can
+                    make it easier to visit the site again and make the 
+                    site more <u>useful</u> to you.
+                </h1>
+                <div class="modal flex hidden">
+                    <div class="message-container hidden">
+                        <h2>Cookies</h2>
+                        <p>
+                            We use cookies to improve your experience on our
+                            website. By clicking "Accept", you agree to the use
+                            of cookies for marketing and analytics purpose.
+                        </p>
+                        <section class="modal-buttons">
+                            <button class="accept-btn">Accept</button>
+                            <button class="settings-btn">Settings</button>
+                        </section>
+                    </div>
+                    <div class="settings-modal hidden">
+                        <h2>Settings</h2>
+                        <p>
+                            <label for="cookie-browser">Browser</label>
+                            <input type="checkbox" name="cookie-browser" class="switch" id="cookie-browser">
+                        </p>
+                        <p>
+                            <label for="cookie-os">Operating System</label>
+                            <input type="checkbox" name="cookie-os" class="switch" id="cookie-os">
+                        </p>
+                        <p>
+                            <label for="cookie-width">Screen Width</label>
+                            <input type="checkbox" name="cookie-width" class="switch" id="cookie-width">
+                        </p>
+                        <p>
+                            <label for="cookie-height">Screen Height</label>
+                            <input type="checkbox" name="cookie-height" class="switch" id="cookie-height">
+                        </p>
+                        <section class="settings-modal-btn">
+                            <button class="save-btn">Save Preferences</button>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

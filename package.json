@@ -1,0 +1,17 @@
+{
+  "name": "cookies-consent-modal",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Hello there! This is a simple modal window that asks for user's consent to use cookies.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "keywords": ["modal", "window", "cookies", "consent", "modal window", "modal window cookies", "modal window cookies consent"],
+  "author": "Wellington Suero",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
