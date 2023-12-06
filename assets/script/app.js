@@ -176,6 +176,7 @@ function setCookie(name, value, options = {}) {
     document.cookie = updatedCookie;
 };
 
+// Get cookie
 function getCookie(name) {
     let matches = document.cookie.match(new RegExp(
         "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
